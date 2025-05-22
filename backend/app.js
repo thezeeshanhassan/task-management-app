@@ -14,7 +14,9 @@ app.get("/", (req, res) => {
     res.send("Welocme to Task Management App");
 })
 
-mongoose.connect("mongodb://localhost:27017/task-management").then(() => { console.log("Connected to MongoDB") }).catch((err) => { "Error while connecting to MongoDB" })
+mongoose.connect("mongodb://localhost:27017/task-management")
+.then(() => { console.log("Connected to MongoDB") })
+.catch((err) => { "Error while connecting to MongoDB" })
 
 // Routes
 app.use("/api/tasks", taskRoutes)
