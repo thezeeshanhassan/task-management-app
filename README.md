@@ -63,26 +63,7 @@ task-management-app/
 - Node.js (v14 or higher)
 - MongoDB (local installation or MongoDB Atlas)
 
-### Option 1: Running the entire application with one command
-1. Install dependencies for the root, client, and server:
-   \`\`\`
-   npm run install-all
-   \`\`\`
-
-2. Create a `.env` file in the server directory with the following variables:
-   \`\`\`
-   MONGODB_URI=mongodb://localhost:27017/task-manager
-   PORT=5000
-   \`\`\`
-
-3. Start both the client and server with one command:
-   \`\`\`
-   npm run dev
-   \`\`\`
-
-4. Open your browser and navigate to `http://localhost:3000`
-
-### Option 2: Running client and server separately
+### Application Running: Running frontend and backend 
 
 #### Backend Setup
 1. Navigate to the backend directory:
