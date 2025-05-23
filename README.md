@@ -6,7 +6,7 @@ A full-stack task management web application built with React, Express, Node.js,
 
 ### Core Features
 - **Task Management**
-  - Create tasks with title, description, deadline, and status
+  - Create tasks with a title, description, deadline, and status
   - Edit existing tasks
   - Delete tasks with confirmation
   - Update task status
@@ -19,7 +19,7 @@ A full-stack task management web application built with React, Express, Node.js,
   - Auto-grouping tasks in columns by status
   - Sorting tasks by most recently updated
   - Form validation (empty fields, length limits, duplicate titles)
-  - Overdue detection with warning badge
+  - Overdue detection with a warning badge
 
 ### Bonus Features
 - Light/Dark mode toggle
@@ -31,7 +31,7 @@ A full-stack task management web application built with React, Express, Node.js,
 ### Frontend
 - React.js
 - Redux Toolkit for state management
-- TailwindCSS for styling
+- Tailwind CSS for styling
 - Lucide React for icons
 
 ### Backend
@@ -41,7 +41,7 @@ A full-stack task management web application built with React, Express, Node.js,
 
 ## Folder Structure
 
-\`\`\`
+```
 task-management-app/
 ├── frontend/                 # Frontend React application
 │   ├── public/              # Static files
@@ -55,7 +55,7 @@ task-management-app/
     ├── models/              # Mongoose models
     ├── routes/              # API routes
     └── ...
-\`\`\`
+```
 
 ## Setup Instructions
 
